@@ -58,6 +58,15 @@ section {
 aside {
   padding: 50px 0;
 }
+
+/* Css agregado */
+.minilogo { 
+	/* padding-top: 10px; */
+    /* display: inline-block; */
+	 margin-top: 7px; 
+	 margin-left: -10px; 
+}
+/* termina */
 .no-padding {
   padding: 0;
 }
@@ -157,7 +166,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpeg');
+  background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
   filter:alpha(opacity=90);
@@ -181,7 +190,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba55, 255, 255);
+  color: rgb(255, 255, 255);
   /* color: rgba(255, 255, 255, 0.9); */
   font-size: 16px;
   margin-bottom: 50px;
@@ -238,7 +247,8 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(212, 74, 74, 0.9);
+  /* background: rgba(240, 95, 64, 0.9); */
   position: absolute;
   bottom: 0;
   text-align: center;
